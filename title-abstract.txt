@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Predicting Battery Remaining Minutes based Related Features
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Our goal for this project is to understand and discover features that affect the battery’s estimated remaining time. Through our exploratory data analysis, we have discovered eight features, namely the number of devices, number of processes, average memory, average page faults, designed capacity, cpu percentage, cpu seconds, and cpu tempera- ture. Using these eight features, we decided to come up with several different models, Linear Regression, Decision Tree Regressor, SVM, Random Forest Regressor, Adaboost Regressor, Gradient Boosting Regressor and Bagging Re- gressor. To understand which model performs the best given these features, we performed hypothesis testing. In the end, our results show that Gradient Boosting Regressor performs the best out of all in that the maes generated on the train and test set are quite low and very similar. This indicates that Gradient Boosting Regressor has less of an overfitting issue than the other two models. Another indication is that through our hypothesis testing, our P-values indicate that Gradient Boosting Regressor performs the best among all others.
